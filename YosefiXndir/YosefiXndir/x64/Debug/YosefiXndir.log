@@ -1,0 +1,24 @@
+﻿  YosefiXndir.cpp
+C:\Users\Narek\source\repos\YosefiXndir\YosefiXndir\YosefiXndir.cpp(124,5): error C2664: 'void List<int>::InsertAt(int,T)': cannot convert argument 1 from 'Node<T> *' to 'int'
+          with
+          [
+              T=int
+          ]
+C:\Users\Narek\source\repos\YosefiXndir\YosefiXndir\YosefiXndir.cpp(124,14): message : There is no context in which this conversion is possible
+C:\Users\Narek\source\repos\YosefiXndir\YosefiXndir\YosefiXndir.cpp(27,10): message : see declaration of 'List<int>::InsertAt'
+C:\Users\Narek\source\repos\YosefiXndir\YosefiXndir\YosefiXndir.cpp(124,5): message : while trying to match the argument list '(Node<T> *, T)'
+          with
+          [
+              T=int
+          ]
+C:\Users\Narek\source\repos\YosefiXndir\YosefiXndir\YosefiXndir.cpp(104,1): message : while compiling class template member function 'void List<int>::InsertAt(int,T)'
+          with
+          [
+              T=int
+          ]
+C:\Users\Narek\source\repos\YosefiXndir\YosefiXndir\YosefiXndir.cpp(183,28): message : see reference to function template instantiation 'void List<int>::InsertAt(int,T)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\Users\Narek\source\repos\YosefiXndir\YosefiXndir\YosefiXndir.cpp(177,19): message : see reference to class template instantiation 'List<int>' being compiled
